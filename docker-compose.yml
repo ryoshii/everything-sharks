@@ -37,10 +37,10 @@ services:
     networks:
       - app-network
 
-  networks:
-    app-network:
-      driver: bridge
+networks:
+  app-network:
+    driver: bridge
 
-  volumes:
-    dbdata:
-    node_modules:
+volumes:
+  dbdata:
+  node_modules:
